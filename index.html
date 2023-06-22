@@ -7,23 +7,28 @@
 </head>
 <body>
 
-    <p>Enter Your First Security Question: <input type="text"> Enter First Security Answer: <input type="text"></p>
+   
+    <h3>First Security Question</h3>
+    <p>What is Your First Name: <input type="text" id="a1"></p>
     
 
-   <p>Enter Your Second Security Question: <input type="text"> Enter Second Security Answer: <input type="text"></p>
+   <h3>Second Security Question</h3>
+   <p>What is Your Pet Name: <input type="text" id="a2"></p>
    
 
-    <p>Enter Your Third Security Question: <input type="text"> Enter Third Security Answer: <input type="text"></p>
+    <h3>Third Security Question</h3>
+    <p>What is Your First Car Model: <input type="text" id="a3"></p>
     
     
-    <p>Click the button below to see your security questions and answers before confirmation</p>
+    <p>Click the button below to see your security answers before confirmation</p>
    
 
-    <button onclick="output()">First Q/A</button>
-    <button onclick="output()">Second Q/A</button>
-    <button onclick="output()">Third Q/A</button>
+    <button onclick="firstOutput()">First Answer</button>
+    <button onclick="secondOutput()">Second Answer</button>
+    <button onclick="thirdOutput()">Third Answer</button>
 
-    <h2 id="demo"></h2>
+    <h2 id="QA"></h2>
+
 
 
     <script src="script.js"></script>

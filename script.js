@@ -1,12 +1,24 @@
-var x = 23;
-var y = 4;
-var z = x * y;
+function firstOutput(){
 
+let firstAnswer = document.getElementById("a1").value;
 
-function output(){
-
-    demo.innerText = "Answer is " + z;
-    demo.style.color = "red";
+QA.innerText = firstAnswer;
 
 }
+
+function secondOutput(){
+
+    let secondAnswer = document.getElementById("a2").value;
+
+    QA.innerText = secondAnswer;
+    
+    }
+
+    function thirdOutput(){
+
+        let thirdAnswer = document.getElementById("a3").value;
+
+        QA.innerText = thirdAnswer;
+        
+        }
 
